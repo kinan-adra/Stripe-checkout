@@ -1,17 +1,19 @@
 
+1. Get the .env file from the owner //E-mail: kinan.o.adra@gmail.com 
+
+2. Paste the .env file in the server folder.
 
 
-1. Build the server
-Go to BackEnd-Nodejs/server
+3. Build the server//Go to BackEnd-Nodejs/server then run:
+
 ```
-then run:
 npm install
 ```
 
-2. Run the server
-from the same path run:
+4. Run the server
+
 ```
 npm start
 ```
 
-3. Go to [http://localhost:4242/checkout.html](http://localhost:4242/checkout.html)
+5. Go to [http://localhost:4242/checkout.html](http://localhost:4242/checkout.html)
