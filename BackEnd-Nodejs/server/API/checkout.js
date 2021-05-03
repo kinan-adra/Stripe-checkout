@@ -11,7 +11,7 @@ const createCheckoutSession = async (req, res) => {
             line_items,
             customer_email,
             mode: 'payment',
-            // shipping_address_collection: {allowed_countries: ['GB', 'US']}
+            shipping_address_collection: {allowed_countries: ['GB', 'US']}
         })
 
         if (session){

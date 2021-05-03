@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Buy cool new product</title>
+    <title>product</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://polyfill.io/v3/polyfill.min.js?version=3.52.1&features=fetch"></script>
     <script src="https://js.stripe.com/v3/"></script>
@@ -10,15 +10,15 @@
     <section>
       <div class="product">
         <img
-          src="https://i.imgur.com/EHyR2nP.png"
-          alt="The cover of Stubborn Attachments"
+          src="https://homepages.cae.wisc.edu/~ece533/images/serrano.png"
+          alt="Serrano Paint"
         />
         <div class="description">
-          <h3>Stubborn Attachments</h3>
-          <h5>$20.00</h5>
+          <h3>Serrano Paint</h3>
+          <h5>$150.00</h5>
         </div>
       </div>
-      <button type="button" id="checkout-button">Checkout</button>
+      <button type="button" id="checkout-button">Buy</button>
     </section>
   </body>
   <script type="text/javascript">
@@ -32,10 +32,10 @@
         price_data: {
           currency: "usd",
           product_data: {
-            name: "Stubborn Attachments",
-            images: ["https://i.imgur.com/EHyR2nP.png"]
+            name: "Serrano Paint",
+            images: ["https://homepages.cae.wisc.edu/~ece533/images/serrano.png"]
           },
-          unit_amount: 2000
+          unit_amount: 15000
         },
         quantity: 1
       }
